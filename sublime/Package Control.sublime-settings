@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Anaconda",
+		"Elm Language Support",
+		"Emmet",
+		"GitGutter",
+		"HTML5",
+		"Package Control",
+		"Python Breakpoints",
+		"Python Improved",
+		"Rsync SSH",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json"
+	]
+}
