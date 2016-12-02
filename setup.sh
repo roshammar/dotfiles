@@ -29,11 +29,12 @@ done
 run/macos.sh
 
 # Sublime Text config
-target_dir="~/Library/Application Support/Sublime Text 3/Packages/User/"
+target_dir="$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
 pth=`pwd`/sublime/
 for fname in `ls -A $pth`
 do
-  ln -s $pth$fname $target_dir$fname
+  target_file="$target_dir$fname"
+  ln -s "$pth$fname" "$target_file"
 done
 
 # Install Zsh
