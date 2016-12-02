@@ -122,3 +122,6 @@ brew cask install "${quicklooks[@]}"
 brew cask install "${fonts[@]}"
 
 brew cleanup
+
+# Please zsh/compinit
+chmod g-w /usr/local/share
