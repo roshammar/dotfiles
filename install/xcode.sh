@@ -8,7 +8,8 @@ done
 
 # Install Xcode
 open "macappstores://itunes.apple.com/en/app/xcode/id497799835"
-until [ -d "/Applications/Xcode.app" ]
+until [ -d "/Applications/Xcode.app" ];
+do
   sleep 5
 done
 
