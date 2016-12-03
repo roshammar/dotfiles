@@ -127,4 +127,4 @@ brew cask install "${fonts[@]}"
 brew cleanup
 
 # Please zsh/compinit
-chmod g-w /usr/local/share
+chmod go-w /usr/local/share
