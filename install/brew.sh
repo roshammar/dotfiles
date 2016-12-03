@@ -11,7 +11,9 @@ brew update
 brew upgrade
 
 brew tap caskroom/cask
+brew tap caskroom/homebrew-versions
 brew tap caskroom/fonts
+brew tap homebrew/fuse
 brew tap homebrew/versions
 brew tap burntsushi/ripgrep https://github.com/BurntSushi/ripgrep.git
 
@@ -35,6 +37,7 @@ apps=(
   homebrew/dupes/grep
   homebrew/dupes/openssh
   homebrew/dupes/screen
+  homebrew/fuse/sshfs
   homebrew/python/matplotlib --with-python3
   homebrew/python/numpy --with-python3
   homebrew/python/pillow --with-python3
@@ -79,7 +82,7 @@ casks=(
   alfred2
   android-file-transfer
   bankid
-  caskroom-versions/sublime-text3
+  sublime-text
   dropbox
   firefox
   google-chrome
@@ -88,8 +91,8 @@ casks=(
   imagealpha
   imageoptim
   iterm2
-  miro-video-converter
   nvalt
+  osxfuse
   silverlight
   skype
   spotify
