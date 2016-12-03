@@ -13,7 +13,7 @@ packages=(
   cloudant
   cytoolz
   fake-useragent
-  feather
+  feather-format
   feedparser
   flask
   flask_cors
@@ -44,6 +44,7 @@ packages=(
 )
 
 for pip in ${pips[@]}; do
+	$pip install --upgrade pip
   $pip install "${packages[@]}"
   ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future $pip install pgmagick
   STATIC_DEPS=true $pip install lxml
