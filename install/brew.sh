@@ -68,7 +68,7 @@ apps=(
   tidy-html5
   tree
   vbindiff
-  vim --override-system-vi
+  vim --with-override-system-vi
   webkit2png
   wget --with-iri
   xz
