@@ -38,6 +38,7 @@ packages=(
   retry
   scikit-learn
   tabulate
+  textract
   typing
   ujson
   unicodecsv
