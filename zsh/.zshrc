@@ -13,7 +13,7 @@ bindkey -e
 # The following lines were added by compinstall
 zstyle :compinstall filename '/Users/toffe/.zshrc'
 
-autoload -Uz compinit
+autoload -Uz compinit compdef
 compinit
 # End of lines added by compinstall
 
@@ -53,6 +53,9 @@ setopt inc_append_history
 setopt share_history
 
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
 
 antigen apply
 source <(antibody init)
