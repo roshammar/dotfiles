@@ -35,6 +35,7 @@ apps=(
   gnu-sed --with-default-names
   graphicsmagick
   homebrew/dupes/grep
+  homebrew/dupes/nano
   homebrew/dupes/openssh
   homebrew/dupes/screen
   homebrew/fuse/sshfs
