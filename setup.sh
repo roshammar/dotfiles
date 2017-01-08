@@ -4,7 +4,7 @@
 caffeinate -is &
 
 # Install apps, tools, dependencies
-install/install.sh
+install/install.sh 2>&1 | tee -a install.log
 
 # Fix for file names containing spaces
 SAVEIFS=$IFS
