@@ -29,9 +29,6 @@ do
   cp -r $pth$fname $HOME/$fname
 done
 
-# Configure OS
-run/macos.sh
-
 # Sublime Text config
 target_dir="$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
 pth=`pwd`/sublime/
@@ -41,8 +38,11 @@ do
   ln -s "${pth}${fname}" "${target_file}"
 done
 
-# restore $IFS
+# Restore $IFS
 IFS=$SAVEIFS
+
+# Configure OS
+run/macos.sh
 
 # Install Zsh
 zsh/install.sh
