@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd "${BASH_SOURCE%/*}"
+
 ./xcode.sh
 ./brew.sh
 
