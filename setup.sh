@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Prevent sleep while this script is running
+caffeinate -is &
+
 # Install apps, tools, dependencies
 install/install.sh
 
@@ -46,3 +49,6 @@ run/macos.sh
 
 # Install Zsh
 zsh/install.sh
+
+# Restore sleep
+killall caffeinate
