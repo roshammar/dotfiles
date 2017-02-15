@@ -11,12 +11,14 @@ packages=(
   chardet
   click
   cloudant
+  cython
   cytoolz
   fake-useragent
   feather-format
   feedparser
   flask
   flask_cors
+  fuzzywuzzy
   jupyter
   more-itertools
   nltk
@@ -31,6 +33,7 @@ packages=(
   pymysql
   PyPDF2
   python-dateutil
+  python-Levenshtein
   pytz
   regex
   requests
