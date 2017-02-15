@@ -120,10 +120,6 @@ brew cask install suspicious-package
 brew cask install 'font-source-code-pro'
 
 
+# Cleanup
 brew cleanup
-
-# Restore $IFS
-IFS=$SAVEIFS
-
-# Please zsh/compinit
 chmod go-w /usr/local/share
