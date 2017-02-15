@@ -18,114 +18,112 @@ brew tap homebrew/versions
 brew tap burntsushi/ripgrep https://github.com/BurntSushi/ripgrep.git
 
 
-apps=(
-  antigen
-  bash
-  bash-completion2
-  binutils
-  boost-python --with-python3
-  burntsushi/ripgrep/ripgrep-bin
-  coreutils
-  diffutils
-  elm
-  findutils
-  fswatch
-  git
-  git-lfs
-  gnu-sed --with-default-names
-  graphicsmagick
-  homebrew/dupes/grep
-  homebrew/dupes/nano
-  homebrew/dupes/openssh
-  homebrew/dupes/screen
-  homebrew/fuse/sshfs
-  homebrew/science/matplotlib --with-python3
-  homebrew/science/pillow --with-python3
-  htop-osx
-  imagemagick --with-webp
-  lua
-  lynx
-  mas
-  mercurial
-  moreutils
-  nim
-  node
-  numpy --with-python3
-  p7zip
-  pigz
-  ponyc
-  pv
-  pypy
-  pypy3
-  python
-  python3
-  rename
-  rust
-  s3cmd
-  scipy --with-python3
-  sqlite
-  ssh-copy-id
-  svtplay-dl
-  tidy-html5
-  tree
-  vbindiff
-  vim --with-override-system-vi
-  webkit2png
-  wget --with-iri
-  xz
-  youtube-dl
-  zopfli
-  zsh
-  zsh-completions
-)
+# Apps
+brew install antigen
+brew install bash
+brew install bash-completion2
+brew install binutils
+brew install boost-python --with-python3
+brew install burntsushi/ripgrep/ripgrep-bin
+brew install coreutils
+brew install diffutils
+brew install elm
+brew install findutils
+brew install fswatch
+brew install git
+brew install git-lfs
+brew install gnu-sed --with-default-names
+brew install graphicsmagick
+brew install homebrew/dupes/grep
+brew install homebrew/dupes/nano
+brew install homebrew/dupes/openssh
+brew install homebrew/dupes/screen
+brew install homebrew/fuse/sshfs
+brew install homebrew/science/matplotlib --with-python3
+brew install homebrew/science/pillow --with-python3
+brew install htop-osx
+brew install imagemagick --with-webp
+brew install lua
+brew install lynx
+brew install mas
+brew install mercurial
+brew install moreutils
+brew install nim
+brew install node
+brew install numpy --with-python3
+brew install p7zip
+brew install pigz
+brew install ponyc
+brew install pv
+brew install pypy
+brew install pypy3
+brew install python
+brew install python3
+brew install rename
+brew install rust
+brew install s3cmd
+brew install scipy --with-python3
+brew install sqlite
+brew install ssh-copy-id
+brew install svtplay-dl
+brew install tidy-html5
+brew install tree
+brew install vbindiff
+brew install vim --with-override-system-vi
+brew install webkit2png
+brew install wget --with-iri
+brew install xz
+brew install youtube-dl
+brew install zopfli
+brew install zsh
+brew install zsh-completions
 
-casks=(
-  alfred2
-  android-file-transfer
-  bankid
-  sublime-text
-  dropbox
-  firefox
-  google-chrome
-  google-cloud-sdk
-  hammerspoon
-  imagealpha
-  imageoptim
-  iterm2
-  nvalt
-  osxfuse
-  silverlight
-  skype
-  spotify
-  sshfs
-  the-unarchiver
-  transmission
-  vlc
-)
 
-quicklooks=(
-  qlcolorcode
-  qlstephen
-  qlmarkdown
-  quicklook-json
-  qlprettypatch
-  quicklook-csv
-  betterzipql
-  qlimagesize
-  webpquicklook
-  suspicious-package
-)
+# Casks
+brew cask install alfred2
+brew cask install android-file-transfer
+brew cask install bankid
+brew cask install sublime-text
+brew cask install dropbox
+brew cask install firefox
+brew cask install google-chrome
+brew cask install google-cloud-sdk
+brew cask install hammerspoon
+brew cask install imagealpha
+brew cask install imageoptim
+brew cask install iterm2
+brew cask install nvalt
+brew cask install osxfuse
+brew cask install silverlight
+brew cask install skype
+brew cask install spotify
+brew cask install sshfs
+brew cask install the-unarchiver
+brew cask install transmission
+brew cask install vlc
 
-fonts=(
-  'font-source-code-pro'
-)
 
-brew install "${apps[@]}"
-brew cask install "${casks[@]}"
-brew cask install "${quicklooks[@]}"
-brew cask install "${fonts[@]}"
+# Quicklooks
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlprettypatch
+brew cask install quicklook-csv
+brew cask install betterzipql
+brew cask install qlimagesize
+brew cask install webpquicklook
+brew cask install suspicious-package
+
+
+# Fonts
+brew cask install 'font-source-code-pro'
+
 
 brew cleanup
+
+# Restore $IFS
+IFS=$SAVEIFS
 
 # Please zsh/compinit
 chmod go-w /usr/local/share
