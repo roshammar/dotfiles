@@ -3,9 +3,6 @@
 # Prevent sleep while this script is running
 caffeinate -is &
 
-# Install apps, tools, dependencies
-install/install.sh 2>&1 | tee -a install.log
-
 # Fix for file names containing spaces
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
@@ -27,6 +24,9 @@ done
 
 # Copy files
 cp -R `pwd`/copy/ $HOME
+
+# Install apps, tools, dependencies
+install/install.sh 2>&1 | tee -a install.log
 
 # Sublime Text config
 target_dir="$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
