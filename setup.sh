@@ -26,11 +26,7 @@ do
 done
 
 # Copy files
-pth=`pwd`/copy/
-for fname in `ls -A $pth`
-do
-  cp -r $pth$fname $HOME/$fname
-done
+cp -R `pwd`/copy/ $HOME
 
 # Sublime Text config
 target_dir="$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
