@@ -19,7 +19,7 @@ brew tap burntsushi/ripgrep https://github.com/BurntSushi/ripgrep.git
 
 
 apps=(
-	antigen
+  antigen
   bash
   bash-completion2
   binutils
@@ -39,10 +39,8 @@ apps=(
   homebrew/dupes/openssh
   homebrew/dupes/screen
   homebrew/fuse/sshfs
-  homebrew/python/matplotlib --with-python3
-  homebrew/python/numpy --with-python3
-  homebrew/python/pillow --with-python3
-  homebrew/python/scipy --with-python3
+  homebrew/science/matplotlib --with-python3
+  homebrew/science/pillow --with-python3
   htop-osx
   imagemagick --with-webp
   lua
@@ -52,6 +50,7 @@ apps=(
   moreutils
   nim
   node
+  numpy --with-python3
   p7zip
   pigz
   ponyc
@@ -63,6 +62,7 @@ apps=(
   rename
   rust
   s3cmd
+  scipy --with-python3
   sqlite
   ssh-copy-id
   svtplay-dl
