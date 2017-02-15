@@ -53,4 +53,4 @@ for pip in ${pips[@]}; do
 done
 
 # Only available for Python 3
-pip3 install mypy-lang
+pip3 install mypy
