@@ -43,6 +43,7 @@ brew install homebrew/science/matplotlib --with-python3
 brew install homebrew/science/pillow --with-python3
 brew install htop-osx
 brew install imagemagick --with-webp
+brew install kubernetes-cli
 brew install lua
 brew install lynx
 brew install mas
