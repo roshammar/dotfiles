@@ -19,6 +19,7 @@ packages=(
   flask
   flask_cors
   fuzzywuzzy
+  hdbscan
   jupyter
   more-itertools
   nltk
@@ -45,6 +46,7 @@ packages=(
   typing
   ujson
   unicodecsv
+  wordcloud
 )
 
 for pip in ${pips[@]}; do
