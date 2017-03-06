@@ -19,6 +19,8 @@ packages=(
   flask
   flask_cors
   fuzzywuzzy
+  gensim
+  google-cloud-datastore
   hdbscan
   jupyter
   more-itertools
@@ -46,6 +48,7 @@ packages=(
   typing
   ujson
   unicodecsv
+  watchdog
   wordcloud
 )
 
