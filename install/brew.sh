@@ -49,6 +49,7 @@ brew install lynx
 brew install mas
 brew install mercurial
 brew install moreutils
+brew install ncdu
 brew install nim
 brew install node
 brew install numpy --with-python3
