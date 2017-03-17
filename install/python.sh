@@ -27,6 +27,7 @@ pip3 install -U pandas
 pip3 install -U pep257
 pip3 install -U pep8
 pip3 install -U pip-tools
+pip3 install -U pycodestyle
 pip3 install -U pycrypto
 pip3 install -U pyflakes
 pip3 install -U pympler
