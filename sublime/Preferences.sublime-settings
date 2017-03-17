@@ -27,6 +27,7 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
+		"Python",
 		"Vintage"
 	],
 	"line_padding_bottom": 5,
