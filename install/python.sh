@@ -49,6 +49,6 @@ pip3 install -U unicodecsv
 pip3 install -U watchdog
 pip3 install -U wordcloud
 
-ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future pip3 install pgmagick
-STATIC_DEPS=true pip3 install lxml
-pip3 install cssselect
+ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future pip3 install -U pgmagick
+STATIC_DEPS=true pip3 install -U lxml
+pip3 install -U cssselect
