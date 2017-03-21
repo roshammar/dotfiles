@@ -129,11 +129,9 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
-# Set a custom wallpaper image. `DefaultDesktop.jpg` is already a symlink, and
-# all wallpapers are in `/Library/Desktop Pictures/`. The default is `Wave.jpg`.
-#rm -rf ~/Library/Application Support/Dock/desktoppicture.db
-#sudo rm -rf /System/Library/CoreServices/DefaultDesktop.jpg
-#sudo ln -s /path/to/your/image /System/Library/CoreServices/DefaultDesktop.jpg
+# Set custom wallpaper image on *all desktops*
+osascript -e 'tell application "System Events" to tell every desktop to set picture to "/Library/Desktop Pictures/Solid Colors/Solid Gray Pro Ultra Dark.png"'
+
 
 ###############################################################################
 # SSD-specific tweaks                                                         #
