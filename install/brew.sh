@@ -49,6 +49,7 @@ brew install lynx
 brew install mas
 brew install mercurial
 brew install moreutils
+brew install mupdf-tools
 brew install ncdu
 brew install nim
 brew install node
@@ -61,6 +62,7 @@ brew install pypy
 brew install pypy3
 brew install python
 brew install python3
+brew install qpdf
 brew install rename
 brew install rust
 brew install s3cmd
