@@ -28,6 +28,7 @@ brew install burntsushi/ripgrep/ripgrep-bin
 brew install coreutils
 brew install diffutils
 brew install elm
+brew install exiftool
 brew install findutils
 brew install fswatch
 brew install git
