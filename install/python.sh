@@ -10,6 +10,7 @@ pip3 install -U cloudant
 pip3 install -U cython
 pip3 install -U cytoolz
 pip3 install -U fake-useragent
+pip3 install -U fasteners
 pip3 install -U feather-format
 pip3 install -U feedparser
 pip3 install -U flask
