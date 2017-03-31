@@ -75,6 +75,7 @@ brew install tidy-html5
 brew install tree
 brew install vbindiff
 brew install vim --with-override-system-vi
+brew install watch
 brew install webkit2png
 brew install wget --with-iri
 brew install xz
