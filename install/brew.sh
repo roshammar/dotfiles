@@ -23,7 +23,7 @@ brew install antigen
 brew install bash
 brew install bash-completion2
 brew install binutils
-brew install boost-python --with-python3
+brew install boost-python --with-python3 --without-python
 brew install burntsushi/ripgrep/ripgrep-bin
 brew install coreutils
 brew install diffutils
@@ -40,8 +40,8 @@ brew install homebrew/dupes/nano
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/fuse/sshfs
-brew install homebrew/science/matplotlib --with-python3
-brew install homebrew/science/pillow --with-python3
+brew install homebrew/science/matplotlib --with-python3 --without-python
+brew install homebrew/science/pillow --with-python3 --without-python
 brew install htop-osx
 brew install imagemagick --with-webp
 brew install kubernetes-cli
@@ -54,20 +54,18 @@ brew install mupdf-tools
 brew install ncdu
 brew install nim
 brew install node
-brew install numpy --with-python3
+brew install numpy --with-python3 --without-python
 brew install p7zip
 brew install pigz
 brew install ponyc
 brew install pv
-brew install pypy
 brew install pypy3
-brew install python
 brew install python3
 brew install qpdf
 brew install rename
 brew install rust
 brew install s3cmd
-brew install scipy --with-python3
+brew install scipy --with-python3 --without-python
 brew install sqlite
 brew install ssh-copy-id
 brew install svtplay-dl
