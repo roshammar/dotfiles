@@ -30,6 +30,7 @@ pip3 install -U pep8
 pip3 install -U pip-tools
 pip3 install -U pycodestyle
 pip3 install -U pycrypto
+pip3 install -U pycurl
 pip3 install -U pyflakes
 pip3 install -U pympler
 pip3 install -U pymysql
