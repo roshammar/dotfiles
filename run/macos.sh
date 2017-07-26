@@ -134,6 +134,13 @@ osascript -e 'tell application "System Events" to tell every desktop to set pict
 
 
 ###############################################################################
+# MacBookPro Touch Bar                                                        #
+###############################################################################
+
+# Always display full control strip (ignoring App Controls)
+defaults write com.apple.touchbar.agent PresentationModeGlobal fullControlStrip
+
+###############################################################################
 # SSD-specific tweaks                                                         #
 ###############################################################################
 
