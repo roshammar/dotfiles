@@ -35,10 +35,10 @@ brew install git
 brew install git-lfs
 brew install gnu-sed --with-default-names
 brew install graphicsmagick
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/nano
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install grep
+brew install nano
+brew install openssh
+brew install screen
 brew install homebrew/fuse/sshfs
 brew install homebrew/science/matplotlib --with-python3 --without-python
 brew install homebrew/science/pillow --with-python3 --without-python
