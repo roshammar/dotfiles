@@ -33,6 +33,7 @@ pip3 install -U pycodestyle
 pip3 install -U pycrypto
 pip3 install -U pycurl
 pip3 install -U pyflakes
+pip3 install -U pygithub
 pip3 install -U pympler
 pip3 install -U pymysql
 pip3 install -U PyPDF2
