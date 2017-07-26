@@ -14,7 +14,6 @@ brew tap caskroom/cask
 brew tap caskroom/homebrew-versions
 brew tap caskroom/fonts
 brew tap homebrew/fuse
-brew tap homebrew/versions
 brew tap burntsushi/ripgrep https://github.com/BurntSushi/ripgrep.git
 
 
