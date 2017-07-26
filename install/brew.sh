@@ -30,6 +30,7 @@ brew install diffutils
 brew install elm
 brew install exiftool
 brew install findutils
+brew install ffmpeg
 brew install fswatch
 brew install git
 brew install git-lfs

@@ -17,6 +17,7 @@ pip3 install -U flask
 pip3 install -U flask_cors
 pip3 install -U fuzzywuzzy
 pip3 install -U gensim
+pip3 install -U google-api-python-client
 pip3 install -U google-cloud-datastore
 pip3 install -U hdbscan
 pip3 install -U jupyter
