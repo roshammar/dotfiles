@@ -19,6 +19,7 @@ pip3 install -U fuzzywuzzy
 pip3 install -U gensim
 pip3 install -U google-api-python-client
 pip3 install -U google-cloud-datastore
+pip3 install -U google-cloud-storage
 pip3 install -U hdbscan
 pip3 install -U jupyter
 pip3 install -U more-itertools
@@ -32,8 +33,10 @@ pip3 install -U pip-tools
 pip3 install -U pycodestyle
 pip3 install -U pycrypto
 pip3 install -U pycurl
+pip3 install -U pyemd
 pip3 install -U pyflakes
 pip3 install -U pygithub
+pip3 install -U pyldavis
 pip3 install -U pympler
 pip3 install -U pymysql
 pip3 install -U PyPDF2
