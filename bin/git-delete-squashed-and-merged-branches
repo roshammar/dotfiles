@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 # prereqs:
 #
@@ -23,6 +24,7 @@ import os.path
 import sys
 import github
 import subprocess
+import time
 
 yellow = '\033[93m'
 reset = '\033[0m'
@@ -31,17 +33,17 @@ DRY_RUN = len(sys.argv) > 1 and sys.argv[1] == '--dry-run'
 
 tokenpath = os.path.expanduser('~/.githubtoken')
 tokenfile = open(tokenpath)
-token = tokenfile.read().strip()
+token = tokenfile.read().strip();
 
 
 def get_branch_heads():
     '''Returns a map from branch name --> SHA for local branches.'''
     branch_to_sha = {}
-    for path in glob('.git/refs/heads/*'):
-        branch = os.path.basename(path)
-        if branch == 'master':
-            continue
-        branch_to_sha[branch] = open(path).read().strip()
+    for path in glob('.git/refs/heads/*') + glob('.git/refs/heads/**/*'):
+        branch_name = path.replace('.git/refs/heads/', '')
+        if os.path.isdir(path): continue
+        if branch_name == 'master': continue
+        branch_to_sha[branch_name] = open(path).read().strip()
     return branch_to_sha
 
 
@@ -49,10 +51,12 @@ def main():
     G = github.Github(login_or_token=token)
 
     retval = 0
-    items = get_branch_heads().items()
-    print('Looking at {} total local heads.'.format(len(items)))
+    items = get_branch_heads().items();
+
+    print 'Looking at {} total local heads.'.format(len(items))
 
     for branch, sha in items:
+        time.sleep(2) # search only allows 30 req/min. https://developer.github.com/v3/search/#rate-limit
         res = G.search_issues(sha)
         shortsha = sha[0:7]
         issue_states = [issue.state == 'closed' for issue in res]
@@ -70,7 +74,7 @@ def main():
             msg = '{}{}{} ({}):\nAll PRs still open. \n'
             retval = 2
 
-        print(msg.format(yellow, branch, reset, shortsha))
+        print (msg.format(yellow, branch, reset, shortsha))
 
         if retval == 0:
             if DRY_RUN:
@@ -79,7 +83,6 @@ def main():
                 subprocess.check_call(['git', 'branch', '-D', branch])
 
     sys.exit(retval)
-
 
 if __name__ == '__main__':
     main()
