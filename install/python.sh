@@ -54,6 +54,7 @@ pip3 install -U typing
 pip3 install -U ujson
 pip3 install -U unicodecsv
 pip3 install -U watchdog
+pip3 install -U whoosh
 pip3 install -U wordcloud
 
 ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future pip3 install -U pgmagick
