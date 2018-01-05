@@ -24,6 +24,7 @@ pip3 install -U google-cloud-storage
 pip3 install -U hdbscan
 pip3 install -U jupyter
 pip3 install -U langid
+pip3 install -U matplotlib
 pip3 install -U more-itertools
 pip3 install -U mypy
 pip3 install -U nltk
@@ -31,6 +32,7 @@ pip3 install -U nose
 pip3 install -U pandas
 pip3 install -U pep257
 pip3 install -U pep8
+pip3 install -U pillow
 pip3 install -U pip-tools
 pip3 install -U pycodestyle
 pip3 install -U pycrypto

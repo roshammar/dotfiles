@@ -40,8 +40,6 @@ brew install nano
 brew install openssh
 brew install screen
 brew install homebrew/fuse/sshfs
-brew install homebrew/science/matplotlib --with-python3 --without-python
-brew install homebrew/science/pillow --with-python3 --without-python
 brew install htop-osx
 brew install imagemagick --with-webp
 brew install kubernetes-cli
