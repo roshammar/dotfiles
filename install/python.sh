@@ -9,6 +9,7 @@ pip3 install -U click
 pip3 install -U cloudant
 pip3 install -U cython
 pip3 install -U cytoolz
+pip3 install -U dateparser
 pip3 install -U fake-useragent
 pip3 install -U fasteners
 pip3 install -U feather-format
@@ -22,6 +23,7 @@ pip3 install -U google-cloud-datastore
 pip3 install -U google-cloud-storage
 pip3 install -U hdbscan
 pip3 install -U jupyter
+pip3 install -U langid
 pip3 install -U more-itertools
 pip3 install -U mypy
 pip3 install -U nltk
@@ -48,6 +50,7 @@ pip3 install -U requests
 pip3 install -U rethinkdb
 pip3 install -U retry
 pip3 install -U scikit-learn
+pip3 install -U slacker
 pip3 install -U tabulate
 pip3 install -U textract
 pip3 install -U typing
