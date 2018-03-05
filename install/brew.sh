@@ -22,7 +22,7 @@ brew install antigen
 brew install bash
 brew install bash-completion2
 brew install binutils
-brew install boost-python --with-python3 --without-python
+brew install boost-python --with-python --without-python@2
 brew install burntsushi/ripgrep/ripgrep-bin
 brew install coreutils
 brew install diffutils
@@ -52,18 +52,18 @@ brew install mupdf-tools
 brew install ncdu
 brew install nim
 brew install node
-brew install numpy --with-python3 --without-python
+brew install numpy --without-python@2
 brew install p7zip
 brew install pigz
 brew install ponyc
 brew install pv
 brew install pypy3
-brew install python3
+brew install python
 brew install qpdf
 brew install rename
 brew install rust
 brew install s3cmd
-brew install scipy --with-python3 --without-python
+brew install scipy --without-python@2
 brew install sqlite
 brew install ssh-copy-id
 brew install svtplay-dl
