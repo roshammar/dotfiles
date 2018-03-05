@@ -106,6 +106,8 @@ brew cask install the-unarchiver
 brew cask install transmission
 brew cask install vlc
 
+open /usr/local/Caskroom/adobe-creative-cloud/latest/'Creative Cloud Installer.app'
+
 
 # Quicklooks
 brew cask install qlcolorcode
