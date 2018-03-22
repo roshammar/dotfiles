@@ -8,5 +8,6 @@ cp -Rp /Library/Preferences/SystemConfiguration/com.apple.airport.preferences.pl
 cp -Rp ~/.z ~/.zhistory ~/migration/home
 cp -Rp ~/.ipython/logs/ ~/.ipython/profile_default/history.sqlite ~/migration/home/.ipython
 cp /etc/hosts ~/migration
+cp ~/.local/share/fish/fish_history ~/migration
 
 cp ~/Library/Application\ Support/Sublime\ Text\ 3/Local/License.sublime_license ~/migration
