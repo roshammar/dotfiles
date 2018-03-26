@@ -13,15 +13,15 @@
 		"._*",
 		"Thumbs.db",
 		".Spotlight-V100",
-		".Trashes",
-		".ipynb_checkpoints",
-		".mypy_cache"
+		".Trashes"
 	],
 	"folder_exclude_patterns":
 	[
 		".git",
 		"node_modules",
-		"__pycache__"
+		"__pycache__",
+		".ipynb_checkpoints",
+		".mypy_cache"
 	],
 	"font_face": "Source Code Pro Light",
 	"font_size": 13,
