@@ -12,6 +12,7 @@
 		"HTML5",
 		"MagicPython",
 		"Package Control",
+		"PackageDev",
 		"Python Breakpoints",
 		"Python Improved",
 		"Rsync SSH",
@@ -20,6 +21,7 @@
 		"SublimeLinter-csslint",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
-		"SublimeLinter-json"
+		"SublimeLinter-json",
+		"Theme - Spacegray"
 	]
 }
