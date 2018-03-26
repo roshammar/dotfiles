@@ -13,7 +13,9 @@
 		"._*",
 		"Thumbs.db",
 		".Spotlight-V100",
-		".Trashes"
+		".Trashes",
+		".ipynb_checkpoints",
+		".mypy_cache"
 	],
 	"folder_exclude_patterns":
 	[
