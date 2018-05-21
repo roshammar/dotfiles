@@ -4,6 +4,7 @@ packages=(
   csslint
   diff-so-fancy
   jshint
+  jsonlint
   npm-check-updates
 )
 
