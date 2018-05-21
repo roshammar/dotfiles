@@ -11,10 +11,11 @@ curl -s https://api.github.com/repos/jgthms/bulma/releases/latest \
 unzip tmp/bulma.zip -d tmp
 cp tmp/bulma-*/css/bulma.css css
 
-curl http://fontawesome.io/assets/font-awesome-4.7.0.zip -L -o tmp/fonts.zip
+mkdir css/fontawesome
+curl https://use.fontawesome.com/releases/v5.0.13/fontawesome-free-5.0.13.zip -L -o tmp/fonts.zip
 unzip tmp/fonts.zip -d tmp
-cp tmp/font-awesome-*/fonts/* fonts
-cp tmp/font-awesome-*/css/font-awesome.min.css css
+cp tmp/fontawesome-*/web-fonts-with-css/webfonts/* fonts
+cp tmp/fontawesome-*/web-fonts-with-css/css/*.css css/fontawesome/
 
 curl http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v4.0.10.js -o js/handlebars.js
 
