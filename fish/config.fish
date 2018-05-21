@@ -1,2 +1,5 @@
-set -xg PYTHONPATH "$PYTHONPATH:/Users/toffe/crawlica/src:/Users/toffe/Projects"
-set -x PATH $PATH /Users/toffe/bin
+set -xg PYTHONPATH "$PYTHONPATH:$HOME/work/src:$HOME/projects"
+set -x PATH /usr/local/opt/python/libexec/bin $PATH $HOME/bin
+set -x EDITOR nano
+# THEME PURE #
+set fish_function_path /Users/toffe/.config/fish/functions/theme-pure $fish_function_path
