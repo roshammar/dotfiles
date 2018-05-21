@@ -26,6 +26,7 @@ brew install boost-python --with-python --without-python@2
 brew install burntsushi/ripgrep/ripgrep-bin
 brew install coreutils
 brew install diffutils
+brew install docker
 brew install elm
 brew install exiftool
 brew install findutils
@@ -85,8 +86,10 @@ brew install zsh-completions
 brew cask install adobe-creative-cloud
 brew cask install alfred2
 brew cask install android-file-transfer
+brew cask install backblaze
 brew cask install bankid
 brew cask install sublime-text
+brew cask install docker
 brew cask install dropbox
 brew cask install firefox
 brew cask install google-chrome
