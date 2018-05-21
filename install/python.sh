@@ -15,6 +15,7 @@ pip install -U fake-useragent
 pip install -U fasteners
 pip install -U feather-format
 pip install -U feedparser
+pip install -U flake8
 pip install -U flask
 pip install -U flask_cors
 pip install -U Flask-Sockets
