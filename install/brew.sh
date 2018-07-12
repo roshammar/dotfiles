@@ -47,7 +47,6 @@ brew install kubernetes-cli
 brew install lua
 brew install lynx
 brew install mas
-brew install mercurial
 brew install moreutils
 brew install mupdf-tools
 brew install ncdu
