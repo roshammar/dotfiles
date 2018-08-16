@@ -10,9 +10,9 @@ fi
 brew update
 brew upgrade
 
-brew tap caskroom/cask
-brew tap caskroom/homebrew-versions
-brew tap caskroom/fonts
+brew tap homebrew/cask
+brew tap homebrew/cask-fonts
+brew tap homebrew/cask-versions
 brew tap homebrew/fuse
 brew tap burntsushi/ripgrep https://github.com/BurntSushi/ripgrep.git
 
