@@ -35,6 +35,7 @@ brew install fswatch
 brew install git
 brew install git-lfs
 brew install gnu-sed --with-default-names
+brew install gnutls  # for pycurl
 brew install graphicsmagick
 brew install grep
 brew install nano
