@@ -68,7 +68,7 @@ pip install -U watchdog
 pip install -U whoosh
 pip install -U wordcloud
 
-PYCURL_SSL_LIBRARY=gnutls pip install pycurl
+PYCURL_SSL_LIBRARY=openssl pip install pycurl
 
 ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future pip install -U pgmagick
 STATIC_DEPS=true pip install -U lxml
