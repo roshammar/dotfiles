@@ -11,11 +11,11 @@ brew update
 brew upgrade
 
 brew tap homebrew/cask
+brew tap homebrew/cask-drivers
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 brew tap homebrew/fuse
 brew tap burntsushi/ripgrep https://github.com/BurntSushi/ripgrep.git
-
 
 # Apps
 brew install antigen
@@ -91,6 +91,7 @@ brew cask install sublime-text
 brew cask install docker
 brew cask install dropbox
 brew cask install firefox
+brew cask install garmin-express
 brew cask install google-chrome
 brew cask install google-cloud-sdk
 brew cask install hammerspoon
