@@ -34,6 +34,7 @@ pip install -U more-itertools
 pip install -U mypy
 pip install -U nltk
 pip install -U nose
+pip install -U openpyxl
 pip install -U pandas
 pip install -U pep257
 pip install -U pep8
