@@ -22,7 +22,6 @@ brew install antigen
 brew install bash
 brew install bash-completion2
 brew install binutils
-brew install boost-python --with-python --without-python@2
 brew install burntsushi/ripgrep/ripgrep-bin
 brew install coreutils
 brew install diffutils
