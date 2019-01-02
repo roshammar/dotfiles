@@ -37,7 +37,6 @@ brew install graphicsmagick
 brew install grep
 brew install nano
 brew install openssh
-brew install screen
 brew install htop-osx
 brew install imagemagick --with-webp
 brew install kubernetes-cli
@@ -64,6 +63,7 @@ brew install sqlite
 brew install ssh-copy-id
 brew install svtplay-dl
 brew install tidy-html5
+brew install tmux
 brew install tree
 brew install vbindiff
 brew install vim --with-override-system-vi
