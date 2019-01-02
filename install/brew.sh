@@ -99,7 +99,6 @@ brew cask install osxfuse
 brew cask install silverlight
 brew cask install skype
 brew cask install spotify
-brew cask install sshfs
 brew cask install the-unarchiver
 brew cask install transmission
 brew cask install vlc
