@@ -17,7 +17,6 @@ brew tap homebrew/cask-versions
 brew tap burntsushi/ripgrep https://github.com/BurntSushi/ripgrep.git
 
 # Apps
-brew install antigen
 brew install bash
 brew install bash-completion2
 brew install binutils
@@ -73,8 +72,6 @@ brew install wget
 brew install xz
 brew install youtube-dl
 brew install zopfli
-brew install zsh
-brew install zsh-completions
 
 
 # Casks
