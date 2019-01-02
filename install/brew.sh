@@ -51,7 +51,7 @@ brew install mupdf-tools
 brew install ncdu
 brew install nim
 brew install node
-brew install numpy --without-python@2
+brew install openblas
 brew install p7zip
 brew install pigz
 brew install ponyc
@@ -62,7 +62,6 @@ brew install qpdf
 brew install rename
 brew install rust
 brew install s3cmd
-brew install scipy --without-python@2
 brew install sqlite
 brew install ssh-copy-id
 brew install svtplay-dl

@@ -33,6 +33,7 @@ pip install -U matplotlib
 pip install -U more-itertools
 pip install -U mypy
 pip install -U nltk
+pip install -U numpy
 pip install -U nose
 pip install -U openpyxl
 pip install -U pandas
@@ -58,6 +59,7 @@ pip install -U requests
 pip install -U rethinkdb
 pip install -U retry
 pip install -U scikit-learn
+pip install -U scipy
 pip install -U slacker
 pip install -U tabulate
 pip install -U textract
