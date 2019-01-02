@@ -102,6 +102,8 @@ brew cask install vlc
 open '/usr/local/Caskroom/adobe-creative-cloud/latest/Creative Cloud Installer.app'
 open '/usr/local/Caskroom/backblaze/latest/Backblaze Installer.app'
 
+git lfs install
+
 
 # Quicklooks
 brew cask install qlcolorcode
