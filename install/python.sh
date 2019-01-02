@@ -24,7 +24,7 @@ pip install -U gensim
 pip install -U google-api-python-client
 pip install -U google-cloud-datastore
 pip install -U google-cloud-storage
-pip install -U hdbscan
+pip install -U hdbscan --user
 pip install -U imblearn
 pip install -U jupyter
 pip install -U jupyterlab
@@ -43,7 +43,6 @@ pip install -U pillow
 pip install -U pip-tools
 pip install -U pycodestyle
 pip install -U pycrypto
-pip install -U pycurl
 pip install -U pyemd
 pip install -U pyflakes
 pip install -U pygithub
