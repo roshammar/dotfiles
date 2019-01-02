@@ -79,10 +79,8 @@ brew cask install adobe-creative-cloud
 brew cask install alfred2
 brew cask install android-file-transfer
 brew cask install backblaze
-brew cask install bankid
 brew cask install sublime-text
 brew cask install docker
-brew cask install dropbox
 brew cask install firefox
 brew cask install garmin-express
 brew cask install google-chrome
@@ -92,7 +90,6 @@ brew cask install imagealpha
 brew cask install imageoptim
 brew cask install iterm2
 brew cask install microsoft-office
-brew cask install nvalt
 brew cask install osxfuse
 brew cask install silverlight
 brew cask install skype
