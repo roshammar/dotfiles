@@ -109,8 +109,6 @@ brew cask install qlmarkdown
 brew cask install quicklook-json
 brew cask install qlprettypatch
 brew cask install quicklook-csv
-brew cask install betterzipql
-brew cask install qlimagesize
 brew cask install webpquicklook
 brew cask install suspicious-package
 
