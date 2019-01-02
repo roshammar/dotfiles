@@ -39,6 +39,7 @@ pip install -U openpyxl
 pip install -U pandas
 pip install -U pep257
 pip install -U pep8
+pip install -U pgmagick
 pip install -U pillow
 pip install -U pip-tools
 pip install -U pycodestyle
@@ -72,6 +73,5 @@ pip install -U wordcloud
 
 PYCURL_SSL_LIBRARY=openssl pip install pycurl
 
-ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future pip install -U pgmagick
 STATIC_DEPS=true pip install -U lxml
 pip install -U cssselect

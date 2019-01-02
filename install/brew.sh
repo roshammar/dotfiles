@@ -32,7 +32,6 @@ brew install fswatch
 brew install git
 brew install git-lfs
 brew install gnu-sed --with-default-names
-brew install graphicsmagick
 brew install grep
 brew install nano
 brew install openssh
@@ -72,6 +71,12 @@ brew install wget
 brew install xz
 brew install youtube-dl
 brew install zopfli
+
+
+# Python package dependencies
+# for pip install pgmagick
+brew install boost-python3
+brew install graphicsmagick
 
 
 # Casks
