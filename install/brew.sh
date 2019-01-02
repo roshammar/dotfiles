@@ -14,7 +14,6 @@ brew tap homebrew/cask
 brew tap homebrew/cask-drivers
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
-brew tap homebrew/fuse
 brew tap burntsushi/ripgrep https://github.com/BurntSushi/ripgrep.git
 
 # Apps
@@ -39,7 +38,6 @@ brew install grep
 brew install nano
 brew install openssh
 brew install screen
-brew install homebrew/fuse/sshfs
 brew install htop-osx
 brew install imagemagick --with-webp
 brew install kubernetes-cli
