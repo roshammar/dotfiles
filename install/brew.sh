@@ -38,7 +38,7 @@ brew install grep
 brew install nano
 brew install openssh
 brew install htop-osx
-brew install imagemagick --with-webp
+brew install imagemagick
 brew install kubernetes-cli
 brew install lua
 brew install lynx
@@ -66,10 +66,10 @@ brew install tidy-html5
 brew install tmux
 brew install tree
 brew install vbindiff
-brew install vim --with-override-system-vi
+brew install vim
 brew install watch
 brew install webkit2png
-brew install wget --with-iri
+brew install wget
 brew install xz
 brew install youtube-dl
 brew install zopfli
