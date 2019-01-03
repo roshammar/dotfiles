@@ -43,8 +43,8 @@ IFS=$SAVEIFS
 # Configure OS
 run/macos.sh
 
-# Install Zsh
-zsh/install.sh
+# Install Fish
+fish/install.sh
 
 # Restore sleep
 killall caffeinate

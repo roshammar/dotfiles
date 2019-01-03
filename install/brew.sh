@@ -27,6 +27,7 @@ brew install docker
 brew install elm
 brew install exiftool
 brew install findutils
+brew install fish
 brew install ffmpeg
 brew install fswatch
 brew install git
