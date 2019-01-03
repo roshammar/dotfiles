@@ -65,7 +65,6 @@ pip install -U textract
 pip install -U tqdm
 pip install -U typing
 pip install -U ujson
-pip install -U unicodecsv
 pip install -U watchdog
 pip install -U whoosh
 pip install -U wordcloud
