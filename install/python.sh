@@ -56,7 +56,6 @@ pip install -U python-Levenshtein
 pip install -U pytz
 pip install -U regex
 pip install -U requests
-pip install -U rethinkdb
 pip install -U retry
 pip install -U scikit-learn
 pip install -U scipy
