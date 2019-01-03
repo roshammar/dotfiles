@@ -96,8 +96,10 @@ brew cask install imageoptim
 brew cask install iterm2
 brew cask install microsoft-office
 brew cask install osxfuse
+brew cask install protonvpn
 brew cask install silverlight
 brew cask install skype
+brew cask install slack
 brew cask install spotify
 brew cask install the-unarchiver
 brew cask install transmission
