@@ -24,5 +24,5 @@ sudo cp ${SRC}/hosts /etc/hosts
 
 cp ${SRC}/fish_history ~/.local/share/fish/fish_history
 
-cp ${SRC}/License.sublime_license ~/Library/Application\ Support/Sublime\ Text\ 3/Local/License.sublime_license ~/migration
+cp ${SRC}/License.sublime_license ~/Library/Application\ Support/Sublime\ Text\ 3/Local/License.sublime_license
 
