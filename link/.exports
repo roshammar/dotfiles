@@ -1,5 +1,5 @@
-export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:$HOME/.nimble/bin:$PATH"
-export PYTHONPATH="$HOME/lib:$HOME/crawlica/src:$PYTHONPATH"
+export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:$HOME/.nimble/bin:/usr/local/opt/python/libexec/bin:$PATH"
+export PYTHONPATH="$HOME/projects:$HOME/work/src:$PYTHONPATH"
 
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
