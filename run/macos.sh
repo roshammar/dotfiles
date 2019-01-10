@@ -113,6 +113,9 @@ osascript -e 'tell application "System Events" to tell every desktop to set pict
 # Always display full control strip (ignoring App Controls)
 defaults write com.apple.touchbar.agent PresentationModeGlobal fullControlStrip
 
+# Replace Siri with screen capture and screen lock
+defaults write com.apple.controlstrip FullCustomized -array com.apple.system.group.brightness com.apple.system.mission-control com.apple.system.launchpad com.apple.system.group.keyboard-brightness com.apple.system.group.media com.apple.system.group.volume com.apple.system.screencapture com.apple.system.screen-lock
+
 ###############################################################################
 # SSD-specific tweaks                                                         #
 ###############################################################################
