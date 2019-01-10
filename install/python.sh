@@ -36,6 +36,7 @@ pip install -U nltk
 pip install -U numpy
 pip install -U nose
 pip install -U openpyxl
+pip install -U oauth2client
 pip install -U pandas
 pip install -U pep257
 pip install -U pep8
