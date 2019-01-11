@@ -40,6 +40,11 @@ done
 # Also, link MagicPython syntax as alias for Python syntax
 ln -s "${pth}Python.sublime-settings" "${target_dir}MagicPython.sublime-settings"
 
+# Ipython config
+mkdir -p ~/.ipython/profile_default
+mkdir -p ~/.ipython/logs
+ln -s ~/projects/dotfiles/ipython/profile_default/ipython_config.py ~/.ipython/profile_default/
+
 # Restore $IFS
 IFS=$SAVEIFS
 
