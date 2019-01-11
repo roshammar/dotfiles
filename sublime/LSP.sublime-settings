@@ -1,0 +1,22 @@
+{
+	"clients":
+	{
+		"pyls":
+		{
+			"command":
+			[
+				"pyls"
+			],
+			"enabled": true,
+			"scopes":
+			[
+				"source.python"
+			],
+			"syntaxes":
+			[
+				"Packages/Python/Python.sublime-syntax",
+				"Packages/MagicPython/grammars/MagicPython.tmLanguage"
+			]
+		}
+	}
+}

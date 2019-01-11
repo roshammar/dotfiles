@@ -6,16 +6,14 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
-		"Anaconda",
 		"Elm Language Support",
 		"GitGutter",
 		"HTML5",
+		"LSP",
 		"MagicPython",
 		"Package Control",
 		"PackageDev",
 		"Python Breakpoints",
-		"Python Improved",
-		"Rsync SSH",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-csslint",
