@@ -49,10 +49,13 @@ pip install -U pyemd
 pip install -U pyflakes
 pip install -U pygithub
 pip install -U pyldavis
+pip install -U pyls-isort
+pip install -U pyls-mypy
 pip install -U pympler
 pip install -U pymysql
 pip install -U PyPDF2
 pip install -U python-dateutil
+pip install -U 'python-language-server[all]'
 pip install -U python-Levenshtein
 pip install -U pytz
 pip install -U regex
