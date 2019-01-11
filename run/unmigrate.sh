@@ -12,7 +12,7 @@ mkdir -p ~/Library/Application\ Support/Sublime\ Text\ 3/Local/
 
 
 cp -Rp ${SRC}/home/.ipython/logs ~/.ipython/
-cp -Rp ${SRC}/home/.ipython/profile_default/history.sqlite ~/.ipython/profile_default/
+cp -Rp ${SRC}/home/.ipython/history.sqlite ~/.ipython/profile_default/
 
 
 # cp -Rp ${SRC}/home/.config/fish ~/migration/home
