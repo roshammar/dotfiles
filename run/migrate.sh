@@ -4,6 +4,7 @@ mkdir -p ~/migration/home
 mkdir ~/migration/home/.ipython
 
 rm ~/.ssh/control/*
+rm ~/.ssh/config  # linked file
 cp -Rp ~/.ssh ~/migration/home
 cp -Rp ~/.ipython/logs ~/.ipython/profile_default/history.sqlite ~/migration/home/.ipython
 cp -Rp ~/.config/fish ~/migration/home

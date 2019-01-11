@@ -45,6 +45,10 @@ mkdir -p ~/.ipython/profile_default
 mkdir -p ~/.ipython/logs
 ln -s ~/projects/dotfiles/ipython/profile_default/ipython_config.py ~/.ipython/profile_default/
 
+# SSH config
+mkdir -p ~/.ssh
+ln -s ~/projects/dotfiles/ssh/config ~/.ssh/
+
 # Restore $IFS
 IFS=$SAVEIFS
 
