@@ -24,6 +24,7 @@ brew install burntsushi/ripgrep/ripgrep-bin
 brew install coreutils
 brew install diffutils
 brew install docker
+brew install docker-compose
 brew install elm
 brew install exiftool
 brew install findutils
