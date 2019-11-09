@@ -61,10 +61,12 @@ pip install -U python-Levenshtein
 pip install -U pytz
 pip install -U regex
 pip install -U requests
+pip install -U requests-html
 pip install -U retry
 pip install -U scikit-learn
 pip install -U scipy
 pip install -U slacker
+pip install -U slackclient
 pip install -U tabulate
 pip install -U textract
 pip install -U tqdm

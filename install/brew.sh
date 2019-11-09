@@ -27,6 +27,7 @@ brew install docker
 brew install docker-compose
 brew install elm
 brew install exiftool
+brew install exercism
 brew install findutils
 brew install fish
 brew install ffmpeg
@@ -96,7 +97,6 @@ brew cask install hammerspoon
 brew cask install imagealpha
 brew cask install imageoptim
 brew cask install iterm2
-brew cask install microsoft-office
 brew cask install osxfuse
 brew cask install protonvpn
 brew cask install silverlight
@@ -126,6 +126,7 @@ brew cask install suspicious-package
 
 # Fonts
 brew cask install 'font-source-code-pro'
+brew cask install 'font-fira-sans'
 
 
 # Cleanup
