@@ -151,7 +151,7 @@
 
 	# Detect copies as well as renames
 	renames = copies
-	external = ~/bin/git-diff
+	# external = ~/bin/git-diff
 
 [diff "bin"]
 
@@ -210,3 +210,5 @@
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+[diff "sopsdiffer"]
+	textconv = sops -d

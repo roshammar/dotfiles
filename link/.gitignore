@@ -57,6 +57,8 @@ target/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
+.mypy_cache/
+
 # Folder view configuration files
 .DS_Store
 Desktop.ini
