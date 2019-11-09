@@ -24,7 +24,7 @@
 		".mypy_cache"
 	],
 	"font_face": "Source Code Pro Light",
-	"font_size": 13,
+	"font_size": 14,
 	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignored_packages":

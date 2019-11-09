@@ -6,7 +6,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
-		"Elm Language Support",
+		"Elm Syntax Highlighting",
 		"GitGutter",
 		"HTML5",
 		"LSP",
