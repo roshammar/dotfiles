@@ -1,4 +1,5 @@
-set -xg PYTHONPATH "$PYTHONPATH:$HOME/work/src:$HOME/projects"
+set -xg PYTHONPATH "$PYTHONPATH:$HOME/work/src/norum:$HOME/work/src:$HOME/projects"
+set -xg GOOGLE_CLOUD_PROJECT crawlica-1055
 set -x PATH /usr/local/opt/python/libexec/bin $PATH $HOME/bin
 set -x EDITOR nano
 
