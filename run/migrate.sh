@@ -12,8 +12,10 @@ cp -Rp ~/.config/fish ~/migration/home
 mv ~/data ~/migration/home
 mv ~/work ~/migration/home
 mv ~/projects ~/migration/home
+cp -R ~/Downloads ~/migration/home
 
 cp -Rp /Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist ~/migration
+cp -Rp ~/Library/Spelling/LocalDictionary ~/migration
 cp /etc/hosts ~/migration
 cp -p ~/.local/share/fish/fish_history ~/migration
 cp ~/Library/Application\ Support/Sublime\ Text\ 3/Local/License.sublime_license ~/migration
