@@ -35,7 +35,7 @@ pip install -U more-itertools
 pip install -U mypy
 pip install -U nltk
 pip install -U numpy
-pip install -U nose
+pip install -U nose --user
 pip install -U openpyxl
 pip install -U oauth2client
 pip install -U pandas
