@@ -88,7 +88,7 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # Set custom wallpaper image on *all desktops*
-osascript -e 'tell application "System Events" to tell every desktop to set picture to "/Library/Desktop Pictures/Solid Colors/Stone.png"'
+osascript -e 'tell application "System Events" to tell every desktop to set picture to "/System/Library/Desktop Pictures/Solid Colors/Stone.png"'
 
 
 ###############################################################################
