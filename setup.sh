@@ -30,6 +30,7 @@ install/install.sh 2>&1 | tee -a install.log.`date +%Y-%m-%d`
 
 # Sublime Text config
 target_dir="$HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/"
+mkdir -p target_dir
 pth=`pwd`/sublime/
 for fname in `ls -A $pth`
 do
