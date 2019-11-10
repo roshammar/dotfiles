@@ -34,7 +34,7 @@ brew install ffmpeg
 brew install fswatch
 brew install git
 brew install git-lfs
-brew install gnu-sed --with-default-names
+brew install gnu-sed
 brew install grep
 brew install gs
 brew install nano
