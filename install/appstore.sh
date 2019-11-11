@@ -7,3 +7,6 @@ mas install 1035137927 # KeyKey
 mas install 441258766  # Magnet
 mas install 973134470  # Be Focused
 mas install 881418622  # Affinity Publisher
+mas install 409201541  # Pages
+mas install 409203825  # Numbers
+mas install 409183694  # Keynote
