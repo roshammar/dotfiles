@@ -76,7 +76,7 @@ pip install -U watchdog
 pip install -U whoosh
 pip install -U wordcloud
 
-PYCURL_SSL_LIBRARY=openssl pip install pycurl
+PYCURL_SSL_LIBRARY=openssl pip install --compile --no-cache-dir pycurl
 
 STATIC_DEPS=true pip install -U lxml
 pip install -U cssselect
