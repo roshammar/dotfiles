@@ -37,6 +37,7 @@ brew install git-lfs
 brew install gnu-sed
 brew install grep
 brew install gs
+brew install helm
 brew install nano
 brew install openssh
 brew install htop-osx
