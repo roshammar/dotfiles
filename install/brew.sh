@@ -26,11 +26,11 @@ brew install diffutils
 brew install docker
 brew install docker-compose
 brew install elm
-brew install exiftool
 brew install exercism
+brew install exiftool
+brew install ffmpeg
 brew install findutils
 brew install fish
-brew install ffmpeg
 brew install fswatch
 brew install git
 brew install git-lfs
@@ -38,8 +38,6 @@ brew install gnu-sed
 brew install grep
 brew install gs
 brew install helm
-brew install nano
-brew install openssh
 brew install htop-osx
 brew install imagemagick
 brew install kubernetes-cli
@@ -48,10 +46,12 @@ brew install lynx
 brew install mas
 brew install moreutils
 brew install mupdf-tools
+brew install nano
 brew install ncdu
 brew install nim
 brew install node
 brew install openblas
+brew install openssh
 brew install p7zip
 brew install pigz
 brew install ponyc
