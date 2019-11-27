@@ -23,8 +23,8 @@ brew install binutils
 brew install burntsushi/ripgrep/ripgrep-bin
 brew install coreutils
 brew install diffutils
-brew install docker
-brew install docker-compose
+# brew install docker  # TODO: check if it is enough with cask Docker below
+# brew install docker-compose
 brew install elm
 brew install exercism
 brew install exiftool
@@ -34,6 +34,7 @@ brew install fish
 brew install fswatch
 brew install git
 brew install git-lfs
+brew install gnu-getopt
 brew install gnu-sed
 brew install grep
 brew install gs
@@ -62,6 +63,7 @@ brew install qpdf
 brew install rename
 brew install rust
 brew install s3cmd
+brew install sops
 brew install sqlite
 brew install ssh-copy-id
 brew install svtplay-dl
