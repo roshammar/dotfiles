@@ -3,6 +3,7 @@
 pip install -U pip
 
 pip install -U BeautifulSoup4
+pip install -U black
 pip install -U bson
 pip install -U chardet
 pip install -U click
