@@ -115,6 +115,7 @@ open '/usr/local/Caskroom/adobe-creative-cloud/latest/Creative Cloud Installer.a
 open '/usr/local/Caskroom/backblaze/latest/Backblaze Installer.app'
 
 git lfs install
+helm plugin install https://github.com/futuresimple/helm-secrets
 
 
 # Quicklooks
