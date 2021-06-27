@@ -14,17 +14,14 @@ brew tap homebrew/cask
 brew tap homebrew/cask-drivers
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
-brew tap burntsushi/ripgrep https://github.com/BurntSushi/ripgrep.git
 
 # Apps
 brew install bash
 brew install bash-completion2
 brew install binutils
-brew install burntsushi/ripgrep/ripgrep-bin
 brew install coreutils
 brew install diffutils
-# brew install docker  # TODO: check if it is enough with cask Docker below
-# brew install docker-compose
+brew install docker-compose
 brew install elm
 brew install exercism
 brew install exiftool
@@ -36,6 +33,7 @@ brew install git
 brew install git-lfs
 brew install gnu-getopt
 brew install gnu-sed
+brew install graphviz
 brew install grep
 brew install gs
 brew install helm
@@ -45,6 +43,7 @@ brew install kubernetes-cli
 brew install lua
 brew install lynx
 brew install mas
+brew install meilisearch
 brew install moreutils
 brew install mupdf-tools
 brew install nano
@@ -57,13 +56,17 @@ brew install p7zip
 brew install pigz
 brew install ponyc
 brew install pv
+brew install pyenv
+brew install pyenv-virtualenv
 brew install pypy3
-brew install python
+brew install python@3.9
 brew install qpdf
 brew install rename
+brew install ripgrep
 brew install rust
-brew install s3cmd
+# brew install s3cmd
 brew install sops
+brew install sox
 brew install sqlite
 brew install ssh-copy-id
 brew install svtplay-dl
@@ -75,63 +78,68 @@ brew install vim
 brew install watch
 brew install webkit2png
 brew install wget
+brew install xgboost
 brew install xz
 brew install youtube-dl
 brew install zopfli
 
 
-# Python package dependencies
-# for pip install pgmagick
-brew install boost-python3
-brew install graphicsmagick
+# For building Python with pyenv
+brew install openssl readline sqlite3 xz zlib
 
 
 # Casks
-brew cask install adobe-creative-cloud
-brew cask install alfred2
-brew cask install android-file-transfer
-brew cask install backblaze
-brew cask install sublime-text
-brew cask install docker
-brew cask install firefox
-brew cask install garmin-express
-brew cask install google-chrome
-brew cask install google-cloud-sdk
-brew cask install hammerspoon
-brew cask install imagealpha
-brew cask install imageoptim
-brew cask install iterm2
-brew cask install osxfuse
-brew cask install protonvpn
-brew cask install silverlight
-brew cask install skype
-brew cask install slack
-brew cask install spotify
-brew cask install the-unarchiver
-brew cask install transmission
-brew cask install vlc
+brew install --cask adobe-creative-cloud
+brew install --cask alfred2
+brew install --cask android-file-transfer
+brew install --cask anki
+#brew cask install backblaze
+#brew cask install sublime-text
+brew install --cask docker
+brew install --cask firefox
+#brew install --cask garmin-express
+brew install --cask google-chrome
+brew install --cask google-cloud-sdk
+brew install --cask hammerspoon
+brew install --cask imagealpha
+brew install --cask imageoptim
+brew install --cask iterm2
+brew install --cask microsoft-teams
+#brew cask install osxfuse
+brew install --cask protonvpn
+#brew cask install silverlight
+brew install --cask skype
+brew install --cask skype-for-business
+brew install --cask slack
+brew install --cask spotify
+brew install --cask steam
+brew install --cask the-unarchiver
+brew install --cask transmission
+brew install --cask tunnelblick
+brew install --cask vlc
 
 open '/usr/local/Caskroom/adobe-creative-cloud/latest/Creative Cloud Installer.app'
-open '/usr/local/Caskroom/backblaze/latest/Backblaze Installer.app'
+#open '/usr/local/Caskroom/backblaze/latest/Backblaze Installer.app'
 
-git lfs install
-helm plugin install https://github.com/futuresimple/helm-secrets
+#git lfs install
+#helm plugin install https://github.com/futuresimple/helm-secrets
+helm plugin install https://github.com/jkroepke/helm-secrets
 
 
 # Quicklooks
-brew cask install qlcolorcode
-brew cask install qlstephen
-brew cask install qlmarkdown
-brew cask install quicklook-json
-brew cask install qlprettypatch
-brew cask install quicklook-csv
-brew cask install webpquicklook
-brew cask install suspicious-package
+#brew cask install qlcolorcode
+#brew cask install qlstephen
+#brew cask install qlmarkdown
+#brew cask install quicklook-json
+#brew cask install qlprettypatch
+#brew cask install quicklook-csv
+#brew cask install webpquicklook
+#brew cask install suspicious-package
 
 
 # Fonts
-brew cask install 'font-source-code-pro'
-brew cask install 'font-fira-sans'
+brew install --cask 'font-source-code-pro'
+brew install --cask 'font-fira-sans'
 
 
 # Cleanup
