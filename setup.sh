@@ -42,10 +42,11 @@ run/macos.sh
 fish/install.sh
 
 # Set hostname
-sudo hostname 'gray'
-sudo scutil --set ComputerName "gray"
-sudo scutil --set LocalHostName "gray"
-sudo scutil --set HostName "gray"
+HOSTNAME="dorian"
+sudo hostname "$HOSTNAME"
+sudo scutil --set ComputerName "$HOSTNAME"
+sudo scutil --set LocalHostName "$HOSTNAME"
+sudo scutil --set HostName "$HOSTNAME"
 
 # Restore sleep
 killall caffeinate
