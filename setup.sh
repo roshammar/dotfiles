@@ -28,10 +28,6 @@ cp -R `pwd`/copy/ $HOME
 # Install apps, tools, dependencies
 install/install.sh 2>&1 | tee -a install.log.`date +%Y-%m-%d`
 
-# SSH config
-mkdir -p ~/.ssh
-ln -s ~/projects/dotfiles/ssh/config ~/.ssh/
-
 # Restore $IFS
 IFS=$SAVEIFS
 
