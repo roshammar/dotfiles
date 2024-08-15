@@ -28,11 +28,6 @@ cp -R `pwd`/copy/ $HOME
 # Install apps, tools, dependencies
 install/install.sh 2>&1 | tee -a install.log.`date +%Y-%m-%d`
 
-# Ipython config
-mkdir -p ~/.ipython/profile_default
-mkdir -p ~/.ipython/logs
-ln -s ~/projects/dotfiles/ipython/profile_default/ipython_config.py ~/.ipython/profile_default/
-
 # SSH config
 mkdir -p ~/.ssh
 ln -s ~/projects/dotfiles/ssh/config ~/.ssh/
