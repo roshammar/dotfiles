@@ -26,7 +26,7 @@ done
 cp -R `pwd`/copy/ $HOME
 
 # Install apps, tools, dependencies
-install/install.sh 2>&1 | tee -a install.log.`date +%Y-%m-%d`
+install/install.sh 2>&1
 
 # Restore $IFS
 IFS=$SAVEIFS
