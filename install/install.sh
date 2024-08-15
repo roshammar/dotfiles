@@ -2,7 +2,12 @@
 
 cd "${BASH_SOURCE%/*}"
 
-./xcode.sh
+# Install Xcode command line tools
+xcode-select --install &> /dev/null
+until xcode-select --print-path &> /dev/null; do
+  sleep 5
+done
+
 ./brew.sh
 
 # Install better nanorc config
@@ -14,5 +19,4 @@ if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
 fi;
 
 ./appstore.sh
-./node.sh
-./python.sh
+# ./python.sh
