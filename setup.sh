@@ -22,9 +22,6 @@ do
   ln -s $pth$fname $HOME/bin/$fname
 done
 
-# Copy files
-cp -R `pwd`/copy/ $HOME
-
 # Install apps, tools, dependencies
 install/install.sh 2>&1
 
