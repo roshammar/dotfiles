@@ -3,10 +3,6 @@
 # Prevent sleep while this script is running
 caffeinate -is &
 
-# Fix for file names containing spaces
-SAVEIFS=$IFS
-IFS=$(echo -en "\n\b")
-
 # Link config files
 pth=`pwd`/link/
 for fname in `ls -A $pth`
@@ -24,9 +20,6 @@ done
 
 # Install apps, tools, dependencies
 install/install.sh 2>&1
-
-# Restore $IFS
-IFS=$SAVEIFS
 
 # Configure OS
 run/macos.sh
