@@ -28,21 +28,6 @@ cp -R `pwd`/copy/ $HOME
 # Install apps, tools, dependencies
 install/install.sh 2>&1 | tee -a install.log.`date +%Y-%m-%d`
 
-# Sublime Text config
-target_dir="$HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/"
-mkdir -p target_dir
-pth=`pwd`/sublime/
-for fname in `ls -A $pth`
-do
-  target_file="${target_dir}${fname}"
-  ln -s "${pth}${fname}" "${target_file}"
-done
-cd $target_dir
-git clone https://github.com/OthmaneBlial/Bulma-Snippets-Sublime-Text-Plugin.git
-
-# Also, link MagicPython syntax as alias for Python syntax
-ln -s "${pth}Python.sublime-settings" "${target_dir}MagicPython.sublime-settings"
-
 # Ipython config
 mkdir -p ~/.ipython/profile_default
 mkdir -p ~/.ipython/logs
