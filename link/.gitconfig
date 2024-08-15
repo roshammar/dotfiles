@@ -212,3 +212,7 @@
 	smudge = git-lfs smudge -- %f
 [diff "sopsdiffer"]
 	textconv = sops -d
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
