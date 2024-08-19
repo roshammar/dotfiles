@@ -10,14 +10,6 @@ do
   ln -s $pth$fname $HOME/$fname
 done
 
-# Link scripts
-mkdir -p $HOME/bin
-pth=`pwd`/bin/
-for fname in `ls -A $pth`
-do
-  ln -s $pth$fname $HOME/bin/$fname
-done
-
 # Install apps, tools, dependencies
 install/install.sh 2>&1
 
