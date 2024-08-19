@@ -1,4 +1,4 @@
-set -xg PYTHONPATH "$PYTHONPATH:$HOME/work/src/monitoring/monitoring/stack/norum:$HOME/work/src/monitoring/monitoring/libs/crawlica/:$HOME/work/src/monitoring/api/:$HOME/work/src/monitoring/ukmediaspider/:$HOME/work/src:$HOME/projects"
+set -xg PYTHONPATH "$PYTHONPATH:$HOME/work/src/monitoring/monitoring/stack/norum:$HOME/work/src/monitoring/monitoring/libs/crawlica/:$HOME/work/src/monitoring/api/:$HOME/work/src/monitoring/ukmediaspider/:$HOME/projects"
 set -xg GOOGLE_CLOUD_PROJECT crawlica-1055
 set -xg CLOUDSDK_PYTHON /Users/toffe/.pyenv/versions/3.10.0/bin/python3.10
 set -xg USE_GKE_GCLOUD_AUTH_PLUGIN True
@@ -18,6 +18,15 @@ function .    ; cd .. ; end
 function ..   ; cd ../.. ; end
 function ...  ; cd ../../.. ; end
 function .... ; cd ../../../.. ; end
+
+function dl
+    cd $HOME/Downloads
+end
+
+function p
+    cd $HOME/projects
+end
+
 
 abbr -a g git
 
