@@ -1,28 +1,24 @@
 #!/usr/bin/env bash
 
-# This assumes this script lives in /Volumes/<vol>/<migration folder>/home/projects/dotfiles/run
-SRC=../../../..
+caffeinate -is &
 
-cp -Rp ${SRC}/home/.ssh ${SRC}/home/data ${SRC}/home/projects ${SRC}/home/work ~/
+cd "$(dirname "$0")"
+ROOT=../../../..
 
-mkdir ~/.ssh/control
-mkdir -p ~/.ipython/profile_default/
+cp -Rp ${ROOT}/home/data ${ROOT}/home/docs ${ROOT}/home/projects ${ROOT}/home/work ~/
+cp -Rp ${ROOT}/home/Downloads/* ~/Downloads/
+cp -Rp ${ROOT}/home/.aws ${ROOT}/home/.kaggle ${ROOT}/home/.ssh ~/
+# cp -Rp "${ROOT}/home/.pyenv" ~/
+
+mkdir -p ~/.config
+cp -Rp ${ROOT}/home/config/github-copilot ~/.config/
+cp -Rp ${ROOT}/home/config/kitty ~/.config/
+cp -Rp ${ROOT}/home/config/zed ~/.config/
+cp -Rp ${ROOT}/home/config/starship.toml ~/.config/
+
+cp -Rp ${ROOT}/LocalDictionary ~/Library/Spelling/
+sudo cp ${ROOT}/hosts /etc/hosts
 mkdir -p ~/.local/share/fish/
-mkdir -p ~/Library/Application\ Support/Sublime\ Text\ 3/Local/
+cp ${ROOT}/fish_history ~/.local/share/fish/fish_history
 
-
-cp -Rp ${SRC}/home/.ipython/logs ~/.ipython/
-cp -Rp ${SRC}/home/.ipython/history.sqlite ~/.ipython/profile_default/
-
-
-# cp -Rp ${SRC}/home/.config/fish ~/migration/home
-
-# cp -Rp /Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist ~/migration
-
-sudo cp ${SRC}/hosts /etc/hosts
-
-
-cp ${SRC}/fish_history ~/.local/share/fish/fish_history
-
-cp ${SRC}/License.sublime_license ~/Library/Application\ Support/Sublime\ Text\ 3/Local/License.sublime_license
-
+killall caffeinate
