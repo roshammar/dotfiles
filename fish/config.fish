@@ -28,7 +28,7 @@ end
 
 alias ls='eza --classify=auto --color --group-directories-first --sort=extension --all'
 alias la='eza --classify=auto --color --group-directories-first --sort=extension --all -l'
-
+alias gdu='gdu-go'
 
 abbr -a g git
 
