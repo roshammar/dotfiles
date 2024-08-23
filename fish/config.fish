@@ -26,6 +26,9 @@ function p
     cd $HOME/projects
 end
 
+alias ls='eza --classify=auto --color --group-directories-first --sort=extension --all'
+alias la='eza --classify=auto --color --group-directories-first --sort=extension --all -l'
+
 
 abbr -a g git
 
